@@ -1,0 +1,3 @@
+1. Container doors are not open for all clients but lock does sync.
+2. Buildings destroyed with module do not sync.
+3. C-130 cargo crash ramp not synced.

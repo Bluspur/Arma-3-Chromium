@@ -1,0 +1,275 @@
+class cfgFunctions {
+	#include "functions.hpp"
+};
+class cfgTaskDescriptions {
+	class CollectTask
+	{
+		title = "Recover November";
+		description = "November, a canister of nuclear material recovered from a Soviet research lab was due to be delivered to us on a military C-130. Last night we lost tracking of the aircraft somewhere in your team's vicinity. Move into the area and recover November if you can.";
+		marker = "";
+	};
+	class RescueTask
+	{
+		title = "Recover Crew";
+		description = "Should you come across any members of the C-130 crew during your search for November, recover them and bring them to the evacuation site.";
+		marker = "";
+	};
+	class ExtractTask
+	{
+		title = "Extract";
+		description = "Return to the camp with November and any survivors you have found.";
+		marker = "markerStart";
+	};
+};
+class cfgSounds {
+	sounds[] = {};
+	class BreathingSound
+	{
+		name = "BreathingSound";
+		sound[] = {"\sounds\breath.ogg",0.1,0.8,5};
+		titles[] = {};
+	};
+	class RussianChatter01
+	{
+		name = "RussianChatter01";
+		sound[] = {"@rhsafrf\addons\rhs_s_radio\rc\rus_rc_01.wss",0.6,1,20};
+		titles[] = {};
+	};
+	class RussianChatter02
+	{
+		name = "RussianChatter02";
+		sound[] = {"@rhsafrf\addons\rhs_s_radio\rc\rus_rc_02.wss",0.6,1,20};
+		titles[] = {};
+	};
+	class RussianChatter03
+	{
+		name = "RussianChatter03";
+		sound[] = {"@rhsafrf\addons\rhs_s_radio\rc\rus_rc_03.wss",0.6,1,20};
+		titles[] = {};
+	};
+	class RussianChatter04
+	{
+		name = "RussianChatter04";
+		sound[] = {"@rhsafrf\addons\rhs_s_radio\rc\rus_rc_04.wss",0.6,1,20};
+		titles[] = {};
+	};
+	class RussianChatter05
+	{
+		name = "RussianChatter05";
+		sound[] = {"@rhsafrf\addons\rhs_s_radio\rc\rus_rc_05.wss",0.6,1,20};
+		titles[] = {};
+	};
+	class RussianChatter06
+	{
+		name = "RussianChatter06";
+		sound[] = {"@rhsafrf\addons\rhs_s_radio\rc\rus_rc_06.wss",0.6,1,20};
+		titles[] = {};
+	};
+	class RussianChatter07
+	{
+		name = "RussianChatter07";
+		sound[] = {"@rhsafrf\addons\rhs_s_radio\rc\rus_rc_07.wss",0.6,1,20};
+		titles[] = {};
+	};
+	class RussianChatter08
+	{
+		name = "RussianChatter08";
+		sound[] = {"@rhsafrf\addons\rhs_s_radio\rc\rus_rc_08.wss",0.6,1,20};
+		titles[] = {};
+	};
+	class RussianChatter09
+	{
+		name = "RussianChatter09";
+		sound[] = {"@rhsafrf\addons\rhs_s_radio\rc\rus_rc_09.wss",0.6,1,20};
+		titles[] = {};
+	};
+	class RussianChatter10
+	{
+		name = "RussianChatter10";
+		sound[] = {"@rhsafrf\addons\rhs_s_radio\rc\rus_rc_10.wss",0.6,1,20};
+		titles[] = {};
+	};
+	class RussianChatter11
+	{
+		name = "RussianChatter11";
+		sound[] = {"@rhsafrf\addons\rhs_s_radio\rc\rus_rc_11.wss",0.6,1,20};
+		titles[] = {};
+	};
+	class RussianChatter12
+	{
+		name = "RussianChatter12";
+		sound[] = {"@rhsafrf\addons\rhs_s_radio\rc\rus_rc_12.wss",0.6,1,20};
+		titles[] = {};
+	};
+	class RussianChatter13
+	{
+		name = "RussianChatter13";
+		sound[] = {"@rhsafrf\addons\rhs_s_radio\rc\rus_rc_13.wss",0.6,1,20};
+		titles[] = {};
+	};
+	class RussianChatter14
+	{
+		name = "RussianChatter14";
+		sound[] = {"@rhsafrf\addons\rhs_s_radio\rc\rus_rc_14.wss",0.6,1,20};
+		titles[] = {};
+	};
+	class RussianChatter15
+	{
+		name = "RussianChatter15";
+		sound[] = {"@rhsafrf\addons\rhs_s_radio\rc\rus_rc_15.wss",0.6,1,20};
+		titles[] = {};
+	};
+	class RussianChatter16
+	{
+		name = "RussianChatter16";
+		sound[] = {"@rhsafrf\addons\rhs_s_radio\rc\rus_rc_16.wss",0.6,1,20};
+		titles[] = {};
+	};
+	class RussianChatter17
+	{
+		name = "RussianChatter17";
+		sound[] = {"@rhsafrf\addons\rhs_s_radio\rc\rus_rc_17.wss",0.6,1,20};
+		titles[] = {};
+	};
+	class RussianChatter18
+	{
+		name = "RussianChatter18";
+		sound[] = {"@rhsafrf\addons\rhs_s_radio\rc\rus_rc_18.wss",0.6,1,20};
+		titles[] = {};
+	};
+	class RussianChatter19
+	{
+		name = "RussianChatter19";
+		sound[] = {"@rhsafrf\addons\rhs_s_radio\rc\rus_rc_19.wss",0.6,1,20};
+		titles[] = {};
+	};
+	class RussianChatter20
+	{
+		name = "RussianChatter20";
+		sound[] = {"@rhsafrf\addons\rhs_s_radio\rc\rus_rc_20.wss",0.6,1,20};
+		titles[] = {};
+	};
+	class RussianChatter21
+	{
+		name = "RussianChatter21";
+		sound[] = {"@rhsafrf\addons\rhs_s_radio\rc\rus_rc_21.wss",0.6,1,20};
+		titles[] = {};
+	};
+	class RussianChatter22
+	{
+		name = "RussianChatter22";
+		sound[] = {"@rhsafrf\addons\rhs_s_radio\rc\rus_rc_22.wss",0.6,1,20};
+		titles[] = {};
+	};
+	class RussianChatter23
+	{
+		name = "RussianChatter23";
+		sound[] = {"@rhsafrf\addons\rhs_s_radio\rc\rus_rc_23.wss",0.6,1,20};
+		titles[] = {};
+	};
+	class RussianChatter24
+	{
+		name = "RussianChatter24";
+		sound[] = {"@rhsafrf\addons\rhs_s_radio\rc\rus_rc_24.wss",0.6,1,20};
+		titles[] = {};
+	};
+	class RussianChatter25
+	{
+		name = "RussianChatter25";
+		sound[] = {"@rhsafrf\addons\rhs_s_radio\rc\rus_rc_25.wss",0.6,1,20};
+		titles[] = {};
+	};
+	class RussianChatter26
+	{
+		name = "RussianChatter26";
+		sound[] = {"@rhsafrf\addons\rhs_s_radio\rc\rus_rc_26.wss",0.6,1,20};
+		titles[] = {};
+	};
+	class RussianChatter27
+	{
+		name = "RussianChatter27";
+		sound[] = {"@rhsafrf\addons\rhs_s_radio\rc\rus_rc_27.wss",0.6,1,20};
+		titles[] = {};
+	};
+	class RussianChatter28
+	{
+		name = "RussianChatter28";
+		sound[] = {"@rhsafrf\addons\rhs_s_radio\rc\rus_rc_28.wss",0.6,1,20};
+		titles[] = {};
+	};
+	class RussianChatter29
+	{
+		name = "RussianChatter29";
+		sound[] = {"@rhsafrf\addons\rhs_s_radio\rc\rus_rc_29.wss",0.6,1,20};
+		titles[] = {};
+	};
+	class RussianChatter30
+	{
+		name = "RussianChatter30";
+		sound[] = {"@rhsafrf\addons\rhs_s_radio\rc\rus_rc_30.wss",0.6,1,20};
+		titles[] = {};
+	};
+	class RussianChatter31
+	{
+		name = "RussianChatter31";
+		sound[] = {"@rhsafrf\addons\rhs_s_radio\rc\rus_rc_31.wss",0.6,1,20};
+		titles[] = {};
+	};
+	class RussianChatter32
+	{
+		name = "RussianChatter32";
+		sound[] = {"@rhsafrf\addons\rhs_s_radio\rc\rus_rc_32.wss",0.6,1,20};
+		titles[] = {};
+	};
+	class RussianChatter33
+	{
+		name = "RussianChatter33";
+		sound[] = {"@rhsafrf\addons\rhs_s_radio\rc\rus_rc_33.wss",0.6,1,20};
+		titles[] = {};
+	};
+	class RussianChatter34
+	{
+		name = "RussianChatter34";
+		sound[] = {"@rhsafrf\addons\rhs_s_radio\rc\rus_rc_34.wss",0.6,1,20};
+		titles[] = {};
+	};
+	class RussianChatter35
+	{
+		name = "RussianChatter35";
+		sound[] = {"@rhsafrf\addons\rhs_s_radio\rc\rus_rc_35.wss",0.6,1,20};
+		titles[] = {};
+	};
+	class RussianChatter36
+	{
+		name = "RussianChatter36";
+		sound[] = {"@rhsafrf\addons\rhs_s_radio\rc\rus_rc_36.wss",0.6,1,20};
+		titles[] = {};
+	};
+	class GeigerCounterLong01
+	{
+		name = "GeigerCounterLong01";
+		sound[] = {"\sounds\GeigerCounterLong01.ogg",0.25,1,10};
+		titles[] = {};
+	};
+};
+class cfgDebriefing
+{
+	class End0
+	{
+		title = "Mission Completed";
+		subtitle = "November has been secured";
+		description = "Good work on securing November, it is a shame that you couldn't recover any survivors though.";
+	};
+	class End1
+	{
+		title = "Mission Completed";
+		subtitle = "November has been secured";
+		description = "Good work on securing November, the fact that you rescued one of the pilots should help mitigate this disaster.";
+	};
+	class End2
+	{
+		title = "Mission Completed";
+		subtitle = "November has been secured";
+		description = "Good work on securing November and rescuing all of the survivors, we couldn't have asked for a better outcome!";
+	};
+};
