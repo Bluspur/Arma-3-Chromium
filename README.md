@@ -1,4 +1,4 @@
-# Arma-3---Chromium
+# Arma-3-Chromium
 ### November 2020
 
 ![Radiation Detector](https://user-images.githubusercontent.com/25553633/173250753-ff43510d-6930-49d8-b361-fdf79e50aab3.png)
